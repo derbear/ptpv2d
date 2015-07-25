@@ -82,7 +82,7 @@ endif
 all: $(PROG)
 
 $(PROG): $(OBJ)
-	$(CC) $(LDFLAGS) -o $@ $(OBJ)
+	$(CC) -o $@ $(OBJ) $(LDFLAGS)
 
 $(OBJ): $(HDR)
 
