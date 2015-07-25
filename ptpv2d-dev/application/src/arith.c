@@ -31,6 +31,8 @@
 /* End Alan K. Bartky additional copyright notice: Do not remove            */
 /****************************************************************************/
  
+#include <limits.h>
+
 #include "ptpd.h"
 
 #define NSEC 1000000000
